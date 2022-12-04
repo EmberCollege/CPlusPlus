@@ -83,12 +83,12 @@ int main() {
 
 // Calc
 
-int x, y;
-int sum;
-std::cout << "Enter the first number: ";
-std::cin >> x;
-std::cout << "Enter the second number ";
-std::cin >> y;
-sum = x + y;
-std::cout << "The numbers added together are: " << sum;
-}
+// int x, y;
+// int sum;
+// std::cout << "Enter the first number: ";
+// std::cin >> x;
+// std::cout << "Enter the second number ";
+// std::cin >> y;
+// sum = x + y;
+// std::cout << "The numbers added together are: " << sum;
+// }
