@@ -68,7 +68,7 @@ bool myBoolean = true;       // Boolean (true or false)
         |         ^~~~~~~~~~~
 /home/ember/Documents/Code/1/IntroToC++.cpp:74:15: note: previous declaration as ‘const int minsPerHour’
     74 |     const int minsPerHour = 60;
-        |               ^~~~~~~~~~~//
+        |               ^~~~~~~~~~~
 
 // User Input
 // This asks for an input then prints a the number enetered
