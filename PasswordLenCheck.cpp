@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 
+// Initialises main
 int main(){
-    std::string password;
-    std::cout << "Enter a password ";
+    std::string password; // Creates string variable password
+    std::cout << "Enter a password - ";
     std::cin >> password;
-    int passLen = password.size();
+    int passLen = password.size(); // Gets the size of the password and stores it in passLen
 
     if(passLen <= 8){
         std::cout << "Too Short! Please use a password with eight characters or more!";
@@ -13,5 +14,5 @@ int main(){
         std::cout << "\nThis is a good length for a password!";
     }
     
-    return 0;
+    return 0; // Ends the loop
 }
